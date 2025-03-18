@@ -48,7 +48,7 @@ export default function Lesson2() {
             <span>前のページへ</span>
           </Link>
           <Link
-            href="https://kobe-bayside-shusei.club/entry_guest/"
+            href="https://kobe-bayside-afternoon-shusei.club/entry_guest/"
             className="w-full sm:w-auto bg-blue-600 hover:bg-blue-700 text-white px-6 py-3 rounded-lg transition-colors text-center shadow-md flex items-center justify-center"
           >
             <span>ゲスト参加申し込みへ</span>
