@@ -1,4 +1,14 @@
+import type { Metadata } from "next";
 import Link from 'next/link';
+
+export const metadata: Metadata = {
+  title: "オープニング動画 - 守成クラブ神戸ベイサイド",
+  description: "守成クラブ神戸ベイサイドの概要を紹介するオープニング動画です。経営者のための交流会の魅力をご覧ください。",
+  openGraph: {
+    title: "オープニング動画 - 守成クラブ神戸ベイサイド",
+    description: "守成クラブ神戸ベイサイドの概要を紹介するオープニング動画です。経営者のための交流会の魅力をご覧ください。",
+  },
+};
 
 export default function Video1() {
   return (

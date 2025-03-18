@@ -1,4 +1,14 @@
+import type { Metadata } from "next";
 import Link from 'next/link';
+
+export const metadata: Metadata = {
+  title: "守成クラブ神戸ベイサイド - 経営者のための交流会",
+  description: "中小企業の経営者同士が集まり、ネットワークを形成し、ビジネスチャンスを創出する場です。",
+  openGraph: {
+    title: "守成クラブ神戸ベイサイド - 経営者のための交流会",
+    description: "中小企業の経営者同士が集まり、ネットワークを形成し、ビジネスチャンスを創出する場です。",
+  },
+};
 
 export default function Home() {
   return (

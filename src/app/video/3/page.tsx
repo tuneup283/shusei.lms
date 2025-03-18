@@ -1,4 +1,14 @@
+import type { Metadata } from "next";
 import Link from 'next/link';
+
+export const metadata: Metadata = {
+  title: "例会の内容 - 守成クラブ神戸ベイサイド",
+  description: "守成クラブの例会で行われる具体的な内容と、参加することで得られるメリットについて詳しく解説します。",
+  openGraph: {
+    title: "例会の内容 - 守成クラブ神戸ベイサイド",
+    description: "守成クラブの例会で行われる具体的な内容と、参加することで得られるメリットについて詳しく解説します。",
+  },
+};
 
 export default function Video3() {
   return (

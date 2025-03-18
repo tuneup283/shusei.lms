@@ -1,4 +1,14 @@
+import type { Metadata } from "next";
 import Link from 'next/link';
+
+export const metadata: Metadata = {
+  title: "守成クラブとは - 守成クラブ神戸ベイサイド",
+  description: "守成クラブの特徴と魅力を詳しく紹介します。中小企業の経営者同士のネットワーク形成とビジネスチャンスの創出について。",
+  openGraph: {
+    title: "守成クラブとは - 守成クラブ神戸ベイサイド",
+    description: "守成クラブの特徴と魅力を詳しく紹介します。中小企業の経営者同士のネットワーク形成とビジネスチャンスの創出について。",
+  },
+};
 
 export default function Video2() {
   return (

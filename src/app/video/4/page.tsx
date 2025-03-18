@@ -1,4 +1,14 @@
+import type { Metadata } from "next";
 import Link from 'next/link';
+
+export const metadata: Metadata = {
+  title: "入会のルールと決まり - 守成クラブ神戸ベイサイド",
+  description: "守成クラブへの入会に関するルールと決まりについて詳しく説明します。参加条件や会費、例会の運営方法など。",
+  openGraph: {
+    title: "入会のルールと決まり - 守成クラブ神戸ベイサイド",
+    description: "守成クラブへの入会に関するルールと決まりについて詳しく説明します。参加条件や会費、例会の運営方法など。",
+  },
+};
 
 export default function Video4() {
   return (

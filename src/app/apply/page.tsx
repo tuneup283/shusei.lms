@@ -5,6 +5,16 @@ import { useForm } from 'react-hook-form';
 import { yupResolver } from '@hookform/resolvers/yup';
 import * as yup from 'yup';
 import { useState } from 'react';
+import type { Metadata } from "next";
+
+export const metadata: Metadata = {
+  title: "ゲスト参加申し込み - 守成クラブ神戸ベイサイド",
+  description: "守成クラブ神戸ベイサイドの例会にゲストとして参加するための申し込みフォームです。",
+  openGraph: {
+    title: "ゲスト参加申し込み - 守成クラブ神戸ベイサイド",
+    description: "守成クラブ神戸ベイサイドの例会にゲストとして参加するための申し込みフォームです。",
+  },
+};
 
 // バリデーションスキーマの定義
 const schema = yup.object().shape({
