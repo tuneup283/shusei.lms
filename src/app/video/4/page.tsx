@@ -5,6 +5,14 @@ export default function Video4() {
     <div className="container mx-auto px-4 py-8">
       <h1 className="text-3xl font-bold mb-8">解説動画</h1>
       
+      <div className="bg-gray-50 rounded-lg shadow-md p-6 mb-8">
+        <p className="text-lg mb-4">
+          続いて、守成クラブ神戸ベイサイドへのご入会にあたって知っておくべきルールや決まり事、
+          また入会金や会費などについて分かりやすく解説します。安心してご参加いただけるよう、
+          ぜひ事前にご確認ください。
+        </p>
+      </div>
+      
       <div className="relative w-full" style={{ paddingTop: '56.25%' }}>
         <iframe
           src="https://www.youtube.com/embed/o-rhqmOeTUM"
