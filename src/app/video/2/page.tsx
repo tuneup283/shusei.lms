@@ -52,7 +52,7 @@ export default function Video2() {
           href="/video/3"
           className="bg-blue-600 hover:bg-blue-700 text-white font-bold py-2 px-4 rounded"
         >
-          次へ：動画3
+          次へ：創始者の思い
         </Link>
       </div>
     </div>

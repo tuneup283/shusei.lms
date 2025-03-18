@@ -3,7 +3,7 @@ import Link from 'next/link';
 export default function Video4() {
   return (
     <div className="container mx-auto px-4 py-8">
-      <h1 className="text-3xl font-bold mb-8">解説動画</h1>
+      <h1 className="text-3xl font-bold mb-8">決まりについて</h1>
       
       <div className="bg-gray-50 rounded-lg shadow-md p-6 mb-8">
         <p className="text-lg mb-4">
@@ -16,7 +16,7 @@ export default function Video4() {
       <div className="relative w-full" style={{ paddingTop: '56.25%' }}>
         <iframe
           src="https://www.youtube.com/embed/o-rhqmOeTUM"
-          title="解説動画"
+          title="決まりについて"
           allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
           allowFullScreen
           className="absolute top-0 left-0 w-full h-full rounded-lg shadow-lg"
