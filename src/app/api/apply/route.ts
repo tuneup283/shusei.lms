@@ -28,6 +28,7 @@ export async function POST(request: Request) {
         email: body.email,
         phone: body.phone,
         message: body.message,
+        terms: body.terms,
       },
     });
 
