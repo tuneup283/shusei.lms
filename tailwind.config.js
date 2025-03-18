@@ -10,6 +10,10 @@ module.exports = {
       colors: {
         background: 'var(--background)',
         foreground: 'var(--foreground)',
+        primary: 'var(--primary)',
+        'primary-hover': 'var(--primary-hover)',
+        border: 'var(--border)',
+        error: 'var(--error)',
       },
     },
   },
