@@ -63,7 +63,7 @@ export default function Apply() {
       <div className="max-w-4xl w-full text-black">
         <h1 className="text-3xl font-bold mb-6 text-center">コース申し込み</h1>
         
-        <div className="bg-white rounded-lg shadow-md p-8 mb-8">
+        <div className="bg-gray-500 rounded-lg shadow-md p-8 mb-8">
           <h2 className="text-2xl font-semibold mb-4">申し込みフォーム</h2>
           
           {submitStatus === 'success' && (

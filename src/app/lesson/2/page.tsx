@@ -6,7 +6,7 @@ export default function Lesson2() {
       <div className="max-w-4xl w-full text-black">
         <h1 className="text-3xl font-bold mb-6 text-center">最終説明</h1>
         
-        <div className="bg-white rounded-lg shadow-md p-8 mb-8">
+        <div className="bg-gray-500 rounded-lg shadow-md p-8 mb-8">
           <h2 className="text-2xl font-semibold mb-4">コースの総まとめ</h2>
           
           <div className="mb-6">

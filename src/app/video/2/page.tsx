@@ -3,19 +3,19 @@ import Link from 'next/link';
 export default function Video2() {
   return (
     <div className="container mx-auto px-4 py-8">
-      <h1 className="text-3xl font-bold mb-8">守成クラブ</h1>
+      <h1 className="text-3xl font-bold mb-8">守成クラブとは</h1>
       
       <div className="relative w-full" style={{ paddingTop: '56.25%' }}>
         <iframe
           src="https://www.youtube.com/embed/ogNlrvYtFh4"
-          title="守成クラブ"
+          title="守成クラブとは"
           allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
           allowFullScreen
           className="absolute top-0 left-0 w-full h-full rounded-lg shadow-lg"
         />
       </div>
 
-      <div className="bg-white rounded-lg shadow-md p-6 mb-8 mt-8">
+      <div className="bg-gray-50 rounded-lg shadow-md p-6 mb-8 mt-8">
         <h2 className="text-2xl font-semibold mb-4">中小企業のネットワークとビジネス機会</h2>
         <ul className="list-disc pl-6 space-y-2 mb-6">
           <li>中小企業の経営者たちが集まる会員制クラブが存在し、全国から様々な企業が参加している。</li>

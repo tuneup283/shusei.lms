@@ -26,7 +26,7 @@ export default function Video1() {
           href="/video/2"
           className="bg-blue-600 hover:bg-blue-700 text-white font-bold py-2 px-4 rounded"
         >
-          次へ：守成クラブ
+          次へ：守成クラブとは
         </Link>
       </div>
     </div>
