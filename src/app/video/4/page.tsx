@@ -41,7 +41,7 @@ export default function Video4() {
           >
             <span className="flex items-center justify-center">
               <span className="mr-2">←</span>
-              <span>前の動画へ</span>
+              <span>前へ</span>
             </span>
           </Link>
           <Link
@@ -49,7 +49,7 @@ export default function Video4() {
             className="w-full sm:w-auto text-center bg-blue-600 hover:bg-blue-700 text-white font-bold py-3 px-6 sm:px-8 rounded-lg transition-colors shadow-md"
           >
             <span className="flex items-center justify-center">
-              <span>まとめへ</span>
+              <span>次へ</span>
               <span className="ml-2">→</span>
             </span>
           </Link>

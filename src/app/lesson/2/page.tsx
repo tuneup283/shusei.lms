@@ -45,7 +45,7 @@ export default function Lesson2() {
             className="w-full sm:w-auto bg-gray-600 hover:bg-gray-700 text-white px-6 py-3 rounded-lg transition-colors text-center shadow-md flex items-center justify-center"
           >
             <span className="mr-2">←</span>
-            <span>前のページへ</span>
+            <span>前へ</span>
           </Link>
           <Link
             href="https://kobe-bayside-afternoon-shusei.club/entry_guest/"

@@ -76,7 +76,7 @@ export default function Lesson1() {
             href="/video/1"
             className="w-full sm:w-auto text-center bg-blue-600 hover:bg-blue-700 text-white font-bold py-3 px-6 sm:px-8 rounded-lg transition-colors shadow-md flex items-center justify-center"
           >
-            <span>次へ：動画を見る</span>
+            <span>次へ</span>
             <span className="ml-2">→</span>
           </Link>
         </div>
