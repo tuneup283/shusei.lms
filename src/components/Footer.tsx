@@ -5,12 +5,12 @@ export default function Footer() {
         <p>
           Created by{' '}
           <a
-            href="https://tune-up.co.jp/"
+            href="https://ari-ka.co.jp/"
             target="_blank"
             rel="noopener noreferrer"
             className="text-blue-600 hover:text-blue-800 hover:underline"
           >
-            株式会社チューンアップ
+            株式会社アリカ
           </a>
         </p>
       </div>
