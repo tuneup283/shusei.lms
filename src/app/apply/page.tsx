@@ -67,6 +67,36 @@ export default function Apply() {
           <span className="inline-block border-b-4 border-blue-500 pb-2">守成クラブ神戸ベイサイド 例会ゲスト参加申し込み</span>
         </h1>
         
+        {/* ステップナビゲーション */}
+        <nav className="flex justify-center mb-8">
+          <ol className="grid grid-cols-3 gap-2 sm:flex sm:space-x-4 w-full max-w-md mx-auto">
+            <li className="flex flex-col items-center sm:flex-row sm:items-center text-gray-400">
+              <span className="rounded-full bg-gray-200 w-8 h-8 flex items-center justify-center font-bold">1</span>
+              <span className="ml-0 sm:ml-2 text-xs sm:text-base">トップページ</span>
+            </li>
+            <li className="flex flex-col items-center sm:flex-row sm:items-center text-gray-400">
+              <svg className="w-5 h-5 mx-0 sm:mx-2 hidden sm:inline" fill="none" stroke="currentColor" strokeWidth="2" viewBox="0 0 24 24"><path strokeLinecap="round" strokeLinejoin="round" d="M9 5l7 7-7 7" /></svg>
+              <span className="rounded-full bg-gray-200 w-8 h-8 flex items-center justify-center font-bold">2</span>
+              <span className="ml-0 sm:ml-2 text-xs sm:text-base">動画1</span>
+            </li>
+            <li className="flex flex-col items-center sm:flex-row sm:items-center text-gray-400">
+              <svg className="w-5 h-5 mx-0 sm:mx-2 hidden sm:inline" fill="none" stroke="currentColor" strokeWidth="2" viewBox="0 0 24 24"><path strokeLinecap="round" strokeLinejoin="round" d="M9 5l7 7-7 7" /></svg>
+              <span className="rounded-full bg-gray-200 w-8 h-8 flex items-center justify-center font-bold">3</span>
+              <span className="ml-0 sm:ml-2 text-xs sm:text-base">動画2</span>
+            </li>
+            <li className="flex flex-col items-center sm:flex-row sm:items-center text-gray-400">
+              <svg className="w-5 h-5 mx-0 sm:mx-2 hidden sm:inline" fill="none" stroke="currentColor" strokeWidth="2" viewBox="0 0 24 24"><path strokeLinecap="round" strokeLinejoin="round" d="M9 5l7 7-7 7" /></svg>
+              <span className="rounded-full bg-gray-200 w-8 h-8 flex items-center justify-center font-bold">4</span>
+              <span className="ml-0 sm:ml-2 text-xs sm:text-base">まとめ</span>
+            </li>
+            <li className="flex flex-col items-center sm:flex-row sm:items-center text-gray-400">
+              <svg className="w-5 h-5 mx-0 sm:mx-2 hidden sm:inline" fill="none" stroke="currentColor" strokeWidth="2" viewBox="0 0 24 24"><path strokeLinecap="round" strokeLinejoin="round" d="M9 5l7 7-7 7" /></svg>
+              <span className="rounded-full bg-gray-200 w-8 h-8 flex items-center justify-center font-bold">5</span>
+              <span className="ml-0 sm:ml-2 text-xs sm:text-base">ゲスト申し込み</span>
+            </li>
+          </ol>
+        </nav>
+        
         <div className="bg-white rounded-lg shadow-xl p-4 sm:p-6 md:p-8 mb-6 sm:mb-8 border-t-4 border-blue-500">
           <h2 className="text-xl sm:text-2xl font-bold mb-4 sm:mb-6 text-blue-800 flex items-center">
             <svg xmlns="http://www.w3.org/2000/svg" className="h-6 w-6 mr-2" fill="none" viewBox="0 0 24 24" stroke="currentColor">
