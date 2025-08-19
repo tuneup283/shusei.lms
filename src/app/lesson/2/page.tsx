@@ -48,7 +48,7 @@ export default function Lesson2() {
               <h2 className="text-xl sm:text-2xl font-bold mb-4 sm:mb-5 text-blue-800 border-b-2 border-blue-400 pb-2">ゲスト参加申し込み</h2>
               <p className="text-base sm:text-lg leading-relaxed">
                 ご興味を持っていただけましたら、以下のフォームから<span className="font-semibold">例会へのゲスト参加</span>をお申し込みください。
-                <span className="font-semibold font-bold text-blue-500">例会に参加いただきましたら、例会途中の休憩時間中に入会申込書の回収がございます。</span>
+                <span className="font-semibold font-bold text-red-500">例会に参加いただきましたら、例会途中の休憩時間中に入会申込書の回収がございます。</span>
                 例会の詳細や、ご不明な点がございましたら、お気軽にお問い合わせください。
                 私たちが丁寧にご案内させていただきます。
               </p>
